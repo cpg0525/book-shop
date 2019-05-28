@@ -71,7 +71,19 @@
 	// db.students.find({age:{$lte:18},name:'Tom'})
 	db.students.find({$or:[{age:{$lt:18}},{name:"Jerry"}]})
 	```
-	3. 常见问题
+	3. mac下安装mongodb
+  ```
+	MongoDB 下载地址： https://www.mongodb.com/download-center?jmp=nav#community
+
+	下载Mongodb后，将Mongodb-3.2.5.tar.gz 复制到 /usr/local 路径下解压得到mongodb这个文件夹，根目录下新建data文件 data文件新建db文件用来存放数据库
+
+	 终端切换到/usr/local/mongodb/bin目录下，执行./mongod
+
+	 打开浏览器，输入localhost:27017,会出现“
+It looks like you are trying to access MongoDB over HTTP on the native driver port.即为成功
+
+	```
+	4. 常见问题
    ```
 	 以上操作无误，就是连接不上。
 	 计算机属性 服务 mongondb启动一下
