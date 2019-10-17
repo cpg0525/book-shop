@@ -88,3 +88,5 @@ It looks like you are trying to access MongoDB over HTTP on the native driver po
 	 以上操作无误，就是连接不上。
 	 计算机属性 服务 mongondb启动一下
 	 ```
+
+	 [![NPM version](https://img.shields.io/npm/v/brick.js.svg?style=flat)](https://www.npmjs.org/package/brick.js)
