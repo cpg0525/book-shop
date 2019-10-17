@@ -1,3 +1,5 @@
+
+ [![NPM version](https://img.shields.io/npm/v/brick.js.svg?style=flat)](https://www.npmjs.org/package/brick.js)
 > 通过express框架实现在线图书商城,数据存储在mongodb数据库中
 
 项目目录介绍  
@@ -89,4 +91,4 @@ It looks like you are trying to access MongoDB over HTTP on the native driver po
 	 计算机属性 服务 mongondb启动一下
 	 ```
 
-	 [![NPM version](https://img.shields.io/npm/v/brick.js.svg?style=flat)](https://www.npmjs.org/package/brick.js)
+	
